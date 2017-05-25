@@ -1,4 +1,4 @@
-package simple_factory;
+package simple_factory.fruit;
 
 
 /**

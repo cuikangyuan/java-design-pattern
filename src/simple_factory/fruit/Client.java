@@ -1,23 +1,12 @@
-package simple_factory;
+package simple_factory.fruit;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+/**
+ * Created by cuikangyuan on 2017/5/25.
+ */
+public class Client {
 
-import com.cky.learnandroiddetails.R;
-
-public class SimpleFactoryActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_factory);
-
-        init();
-    }
-
-    private void init() {
+    public static void main(String[] args) {
         try {
-
             Fruit fruit1 = FruitGardener.factory("apple");
             fruit1.grow();
             Fruit fruit2 = FruitGardener.factory("grape");
@@ -29,6 +18,5 @@ public class SimpleFactoryActivity extends AppCompatActivity {
         } catch (BadFruitException e) {
             e.printStackTrace();
         }
-
     }
 }

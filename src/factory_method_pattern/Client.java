@@ -26,6 +26,7 @@ public class Client {
         fruit.harvest();
         */
 
+        /*
         try {
             URL url = new URL("http://www.baidu.com");
             URLConnection urlConnection = url.openConnection();
@@ -44,5 +45,6 @@ public class Client {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
     }
 }

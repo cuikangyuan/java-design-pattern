@@ -38,7 +38,7 @@ public class VectorProxy implements InvocationHandler {
 
     /**
      * 调用特定方法
-     * @param proxy 指代我们所代理的那个真实对象
+     * @param proxy   指代代理对象 而非真实对象
      * @param method 指代的是我们所要调用真实对象的某个方法的Method对象
      * @param args 指代的是调用真实对象某个方法时接受的参数
      * @return

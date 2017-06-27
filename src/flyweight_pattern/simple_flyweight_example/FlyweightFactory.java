@@ -1,4 +1,4 @@
-package flyweight_pattern;
+package flyweight_pattern.simple_flyweight_example;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package flyweight_pattern;
+package flyweight_pattern.simple_flyweight_example;
 
 /**
  * Created by cuikangyuan on 2017/6/26.

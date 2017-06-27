@@ -1,4 +1,4 @@
-package flyweight_pattern;
+package flyweight_pattern.component_flyweight_pattern;
 
 /**
  * Created by cuikangyuan on 2017/6/26.

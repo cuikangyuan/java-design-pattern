@@ -40,10 +40,10 @@ public class Client {
 
             bufferedReader.close();
 
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (MalformedURLException E) {
+            E.printStackTrace();
+        } catch (IOException E) {
+            E.printStackTrace();
         }
         */
     }

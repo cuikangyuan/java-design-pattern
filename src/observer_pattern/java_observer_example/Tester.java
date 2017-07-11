@@ -9,10 +9,10 @@ public class Tester {
         Watcher watcher = new Watcher(watched);
 
 
-        watched.changeData("a");
-        watched.changeData("a");
-        watched.changeData("c");
-        watched.changeData("b");
+        watched.changeData("A");
+        watched.changeData("A");
+        watched.changeData("C");
+        watched.changeData("B");
 
     }
 }

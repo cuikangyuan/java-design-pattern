@@ -12,7 +12,7 @@ public class ConcreteAggregate extends Aggregate {
     }
 
 
-    private Object[] objects = {"a", "b", "c", "d"};
+    private Object[] objects = {"A", "B", "C", "D"};
 
 
     /**

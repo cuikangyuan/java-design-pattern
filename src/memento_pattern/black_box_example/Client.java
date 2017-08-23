@@ -1,7 +1,11 @@
-package memento_pattern.simple_example;
+package memento_pattern.black_box_example;
 
 /**
  * Created by cuikangyuan on 2017/7/13.
+ *
+ * 黑箱备忘录
+ *
+ * java实现双重接口 宽接口 窄接口
  */
 public class Client {
 

@@ -1,7 +1,4 @@
-package memento_pattern;
-
-import memento_pattern.white_box_example.Caretaker;
-import memento_pattern.white_box_example.Originator;
+package memento_pattern.white_box_example;
 
 /**
  * Created by cuikangyuan on 2017/7/13.

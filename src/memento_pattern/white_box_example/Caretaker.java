@@ -1,4 +1,4 @@
-package memento_pattern.simple_example;
+package memento_pattern.white_box_example;
 
 /**
  * Created by cuikangyuan on 2017/8/23.
